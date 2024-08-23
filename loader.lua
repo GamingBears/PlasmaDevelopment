@@ -4,7 +4,7 @@ local Character = Client.Character
 local Camera    = workspace.CurrentCamera
 local HttpService = game:GetService("HttpService")
 
-local Scripts1   = game:HttpGet('https://hennessy-net.vercel.app/temp.json')
+local Scripts1   = game:HttpGet('https://github.com/GamingBears/PlasmaDevelopment/raw/main/bin/scripts.json')
 local Scripts = HttpService:JSONDecode(Scripts1)
 
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
